@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cart">
+        <h2>panier</h2>
+        <div class="cart-item">
+            <span class="item-name">Article 1</span>
+            <span class="item-price">$10.00</span>
+            <div class="quantity-controls">
+                <button class="subtract-btn">-</button>
+                <span class="item-quantity">1</span>
+                <button class="add-btn">+</button>
+            </div>
+            <button class="remove-btn">Supprimer</button>
+            <button class="heart-btn">&#x2764;</button>
+        </div>
+
+
+
+
+        <div class="cart-item">
+            <span class="item-name">Article 2</span>
+            <span class="item-price">$20.00</span>
+            <div class="quantity-controls">
+                <button class="subtract-btn">-</button>
+                <span class="item-quantity">1</span>
+                <button class="add-btn">+</button>
+            </div>
+            <button class="remove-btn">Supprimer</button>
+            <button class="heart-btn">&#x2764;</button>
+        </div>
+
+        <p id="empty-message" style="display: none;">Votre panier est vide</p>
+
+
+        <div class="total">
+        Total : <span id="total-price">$0.00</span>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
